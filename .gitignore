@@ -1,0 +1,30 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Django
+*.log
+*.sqlite3
+/staticfiles/
+media/
+.env
+
+# VS Code
+.vscode/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Python virtual environments
+venv/
+env/
+.gemini/
+.Scripts/
+
+# Postgres local files (if any)
+*.dump
+*.sql
