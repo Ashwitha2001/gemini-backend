@@ -161,7 +161,7 @@ celery -A gemini_backend worker -l info -P solo
 
 # Deployment & Access
 
-* **Render Public URL:** [https://gemini-backend-eldp.onrender.com](https://gemini-backend-eldp.onrender.com)
+* **Render Public URL:** https://dashboard.render.com/web/srv-d36ghvffte5s73beuto0
 * **Access Admin Panel:** `/admin` (use superuser credentials)
 * **Environment Variables** configured in Render settings.
 
