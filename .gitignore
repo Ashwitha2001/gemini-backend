@@ -22,6 +22,7 @@ celerybeat.pid
 # Python virtual environments
 venv/
 env/
+gemini/
 .gemini/
 .Scripts/
 

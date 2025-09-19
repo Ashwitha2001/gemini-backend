@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'gemini_backend.wsgi.application'
 load_dotenv()
 
 # Database
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv("DB_NAME"),
@@ -94,7 +94,15 @@ DATABASES = {
         'HOST': os.getenv("DB_HOST"),
         'PORT': os.getenv("DB_PORT"),
     }
+}'''
+
+
+import dj_database_url
+
+DATABASES = {
+    'default': dj_database_url.parse(os.getenv("DATABASE_URL"))
 }
+
 
 
 # Password validation
